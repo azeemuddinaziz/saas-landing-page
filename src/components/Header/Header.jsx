@@ -41,10 +41,10 @@ function Header() {
           <a href="#how-it-works" onClick={()=> setIsMenuOpen(false)}>How it works</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#pricing" onClick={()=> setIsMenuOpen(false)}>Pricing</a>
+          <a href="#testimonials" onClick={()=> setIsMenuOpen(false)}>Testimonials</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#testimonials" onClick={()=> setIsMenuOpen(false)}>Testimonials</a>
+          <a href="#pricing" onClick={()=> setIsMenuOpen(false)}>Pricing</a>
         </li>
       </ul>
 
