@@ -27,7 +27,7 @@ function Header() {
       <ul
         className={`lg:flex justify-center gap-10 w-full text-white items-center ${
           isMenuOpen
-            ? "flex flex-col lg:flex-row items-center justify-center absolute inset-0 lg:relative bg-secondary-500 h-screen text-xl"
+            ? "flex flex-col lg:flex-row items-center justify-center absolute inset-0 lg:relative bg-secondary-500 lg:bg-transparent h-screen text-xl"
             : "hidden"
         } `}
       >
