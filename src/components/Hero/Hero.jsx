@@ -3,7 +3,7 @@ import Button from "../ui/Button/Button";
 
 function Hero() {
   return (
-    <div className="relative h-full bg-secondary-700 p-4 lg:px-32 lg:py-12 overflow-hidden">
+    <div id="hero" className="relative h-full bg-secondary-700 p-4 lg:px-32 lg:py-12 overflow-hidden">
       {/* For decoration purspose */}
       <div>
         <img
