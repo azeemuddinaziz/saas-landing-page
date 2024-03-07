@@ -3,7 +3,7 @@ import Button from "../ui/Button/Button";
 
 function HowItWorks() {
   return (
-    <div className="px-8 py-8 lg:px-32 lg:py-20">
+    <div id="how-it-works" className="px-8 py-8 lg:px-32 lg:py-20">
       <div className="flex flex-col gap-8 text-center mb-8">
         <span className="text-primary-500 uppercase">How it works</span>
         <h4 className="text-3xl text-white font-bold">
