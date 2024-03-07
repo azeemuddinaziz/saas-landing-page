@@ -32,19 +32,19 @@ function Header() {
         } `}
       >
         <li className="hover:text-primary-200">
-          <a href="#">Products</a>
+          <a href="#" onClick={()=> setIsMenuOpen(false)}>Products</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#">Benifit</a>
+          <a href="#" onClick={()=> setIsMenuOpen(false)}>Benifit</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#">How it works</a>
+          <a href="#" onClick={()=> setIsMenuOpen(false)}>How it works</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#">Pricing</a>
+          <a href="#" onClick={()=> setIsMenuOpen(false)}>Pricing</a>
         </li>
         <li className="hover:text-primary-200">
-          <a href="#">Company</a>
+          <a href="#" onClick={()=> setIsMenuOpen(false)}>Company</a>
         </li>
       </ul>
 
