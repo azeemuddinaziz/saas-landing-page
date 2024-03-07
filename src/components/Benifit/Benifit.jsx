@@ -2,7 +2,7 @@ import React from "react";
 
 function Benifit() {
   return (
-    <div className="h-full bg-white px-4 py-8 lg:px-32 lg:py-20 ">
+    <div id="benifit" className="h-full bg-white px-4 py-8 lg:px-32 lg:py-20 ">
       <div className="items-center gap-10  ">
         <div className="flex flex-col gap-4 mb-2">
           <span className="uppercase text-primary-500">Why use spend.in</span>
