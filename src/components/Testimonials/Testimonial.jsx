@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Testimonial() {
   return (
-    <div className="px-4 py-8 lg:px-32 lg:py-20">
+    <div id="testimonials" className="px-4 py-8 lg:px-32 lg:py-20">
       <div className="flex flex-col gap-4 lg:text-center mb-12">
         <span className="text-primary-500 uppercase">What they say</span>
         <h4 className="text-3xl text-white font-bold">Our User Kind Words</h4>
