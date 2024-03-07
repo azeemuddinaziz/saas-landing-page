@@ -3,7 +3,7 @@ import PlanCard from "./PlanCard";
 
 function Pricing() {
   return (
-    <div className="bg-white p-6 lg:px-32 lg:py-20 h-full">
+    <div id="pricing" className="bg-white p-6 lg:px-32 lg:py-20 h-full">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-sm text-secondary-400 font-extralight">
