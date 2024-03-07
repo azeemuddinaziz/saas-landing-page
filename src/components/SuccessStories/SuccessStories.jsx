@@ -5,7 +5,7 @@ function SuccessStories() {
   const [isWithSpendIn, setIsWithSpendIn] = useState(true);
 
   return (
-    <div className="bg-white px-8 py-8 lg:px-32 lg:py-20">
+    <div id="success-stories" className="bg-white px-8 py-8 lg:px-32 lg:py-20">
       <div className="flex flex-col gap-4 mb-8">
         <span className="text-primary-500 uppercase">
           Increase productivity
