@@ -29,7 +29,7 @@ function Hero() {
 
       <div className="flex flex-col lg:flex-row lg:items-center justify-center gap-4 mb-10">
         <Button label="Get Free Demo" state="primary" className={"lg:w-max"} />
-        <Button label="See Pricing" state="secondary" className={"lg:w-max"} />
+        <a href="#pricing"><Button label="See Pricing" state="secondary" className={"lg:w-max"} /></a>
       </div>
 
       <img src="./assets/images/dashboard-preview.png" />
